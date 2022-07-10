@@ -32,3 +32,9 @@
       margin-top: 50px !important;
     }
   } 
+
+  @media (min-width: 751px) and (max-width: 900px) {
+    .colorlib-main, .hero-wrap{
+        margin-top: -100px;
+      }
+  }
