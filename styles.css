@@ -12,7 +12,7 @@
     }
   
     .colorlib-main, .hero-wrap{
-      margin-top: 550px;
+      margin-top: 350px !important;
     }
   }
   
@@ -31,7 +31,7 @@
     }
   } 
   
-  @media (max-width: 750px) {
+  @media (min-width: 476px) and (max-width: 750px) {
     .ftco-footer {
       margin-top: 20% !important;
     }
@@ -45,7 +45,7 @@
     }
   
     .colorlib-main, .hero-wrap{
-      margin-top: 60%;
+      margin-top: 60% !important;
     }
   }
 
@@ -89,7 +89,7 @@
   }
 
   
-  @media (min-width: 749px) and (max-width: 949px) {
+  @media (min-width: 751px) and (max-width: 900px) {
     .colorlib-main, .hero-wrap{
         margin-top: 100px;
       }
